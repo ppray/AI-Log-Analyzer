@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "AI Log Analyzer",
+  "version": "2.0",
+  "author": "Ruidong Guo",
+  "options_page": "options.html",
+  "description": "AI Log Analyzer is a Chrome extension designed to efficiently and intelligently analyzes logs. Developed by Ruidong Guo ruidong.guo@broadcom.com .",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "options.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js", "marked.min.js"]
+    }
+  ]
+}
