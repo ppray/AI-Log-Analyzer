@@ -23,11 +23,11 @@ AILogAnalyzer is a Chrome extension designed to efficiently and intelligently an
 
 Once installed, locate the AILogAnalyzer extension icon in the Chrome browser, right-click, and select "Options" to configure your preferences and log analysis settings.
 
-![settings](https://gitlab-vmw.devops.broadcom.net/rg011725/ai-log-analyzer/-/raw/main/img/setting.png)
+![settings](https://github.com/ppray/AI-Log-Analyzer/blob/main/img/setting.png)
 
 **Recommended Configuration:**
 - API Endpoint: `https://llm.ai.broadcom.net/api/v1/chat/completions`
-- API Key: `552e6208-65e6-4cb1-bc43-f9b603d2ccd4`
+- API Key: `****`
 - Model: `meta-llama/Meta-Llama-3.1-8B-Instruct`
 - Max Tokens: `130000`
 
@@ -42,20 +42,16 @@ Once installed, locate the AILogAnalyzer extension icon in the Chrome browser, r
 
 1. AI analyze `kubectl_describe_kcp_-A.txt`
 
-![kubectl_log](https://gitlab-vmw.devops.broadcom.net/rg011725/ai-log-analyzer/-/raw/main/img/kubectl_log.png)
+![kubectl_log](https://github.com/ppray/AI-Log-Analyzer/blob/main/img/kubectl_log.png)
 
 2. AI analyze `test.log`
 
-![test.log](https://gitlab-vmw.devops.broadcom.net/rg011725/ai-log-analyzer/-/raw/main/img/test_log.png)
+![test.log](https://github.com/ppray/AI-Log-Analyzer/blob/main/img/test_log.png)
 
 3. Bug summary
 
-![Bug Summary](https://gitlab-vmw.devops.broadcom.net/rg011725/ai-log-analyzer/-/raw/main/img/bug_summary.png)
+![Bug Summary](https://github.com/ppray/AI-Log-Analyzer/blob/main/img/bug_summary.png)
 
-
-## Technical Support and Feedback
-
-For any questions, suggestions, or feedback, please contact the developer team at Ruidong Guo (ruidong.guo@broadcom.com).
 
 ## Disclaimer
 
