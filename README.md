@@ -16,7 +16,7 @@ AILogAnalyzer is a Chrome extension designed to efficiently and intelligently an
 
 ### Installation Steps
 
-1. Download "AILogAnalyzer" from the [gitlab link](https://gitlab-vmw.devops.broadcom.net/rg011725/ai-log-analyzer/-/archive/2.0.0/ai-log-analyzer-2.0.0.zip)
+1. Download "AILogAnalyzer" from the [github](https://github.com/ppray/AI-Log-Analyzer.git)
 2. Load the unpacked folder in Chrome by navigating to `chrome://extensions/`.
 
 ### Configuration Options
